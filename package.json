@@ -1,0 +1,23 @@
+{
+  "name": "JIRA",
+  "version": "1.0.0",
+  "description": "JIRA",
+  "main": "index.js",
+  "author": "Joseph García <jegm.sx@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.atlassian.net/login",
+    "serviceName": "JIRA",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
